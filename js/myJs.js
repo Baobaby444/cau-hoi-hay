@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì Bảo đẹp trai vl :<<<<<<< ";
+    var text = "Tại vì Bảo đẹp trai vl :<<<<<<< ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -114,7 +114,7 @@ $('#yes').click(function() {
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho Bảo <3'
+        confirmButtonText: 'Gửi cho Bảo <3',
     }).then((result) => {
         if (result.value) {
             Swal.fire({
